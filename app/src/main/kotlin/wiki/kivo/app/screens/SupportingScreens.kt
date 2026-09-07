@@ -392,7 +392,7 @@ fun AboutScreen(version: String, website: (String) -> Unit, diagnostics: (() -> 
             verticalArrangement = Arrangement.spacedBy(20.dp),
         ) {
             ArchiveMark(Modifier.size(72.dp))
-            Text("便携kivo古书馆", style = MaterialTheme.typography.headlineLarge)
+            Text("便携古书馆", style = MaterialTheme.typography.headlineLarge)
             Text("基沃托斯的故事，随身收藏。", style = MaterialTheme.typography.titleMedium)
             Text(
                 "角色模块验收版 $version",

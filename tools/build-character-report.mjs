@@ -82,7 +82,7 @@ const size = (apk.length / 1048576).toFixed(2);
 const verification = { version: '0.3.0', apk: { file: inspection.file, bytes: apk.length, sha256: hash }, unitTotal, unitSuites, device, lint, nativeLibraries: inspection.nativeLibraries.length, smoke, screenshots: shots.map(([name, title]) => ({ file: `screenshots/${name}.png`, title })) };
 await fs.writeFile(path.join(out, 'verification.json'), JSON.stringify(verification, null, 2) + '\n');
 
-const report = `# 便携kivo古书馆 0.3.0 · 角色模块验收报告
+const report = `# 便携古书馆 0.3.0 · 角色模块验收报告
 
 日期：2026-09-07。本报告对应本机实际构建与专用 Android 模拟器中的运行结果。没有用效果图代替安装后的画面。
 
