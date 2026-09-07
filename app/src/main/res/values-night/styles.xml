@@ -1,0 +1,13 @@
+<resources>
+    <style name="Theme.Kivo" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#0E1A24</item>
+    </style>
+    <style name="Theme.Kivo.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0E1A24</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_art</item>
+        <item name="postSplashScreenTheme">@style/Theme.Kivo</item>
+    </style>
+</resources>

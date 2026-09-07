@@ -1,0 +1,7 @@
+# 原始设备画面和运行输出保留在本机；报告摘要与复现脚本进入源码管理。
+screenshots/
+scree/
+screensh/
+*.log
+*.xml
+*.txt

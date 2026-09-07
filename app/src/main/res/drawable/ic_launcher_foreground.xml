@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 256 px 原图是像素美术，关闭双线性过滤并收入自适应图标安全区。 -->
+    <item android:left="18dp" android:top="18dp" android:right="18dp" android:bottom="18dp">
+        <bitmap
+            android:src="@drawable/ic_launcher_art"
+            android:gravity="fill"
+            android:filter="false" />
+    </item>
+</layer-list>

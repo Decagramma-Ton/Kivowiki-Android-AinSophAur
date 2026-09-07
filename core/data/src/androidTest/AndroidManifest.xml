@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 仅专用设备测试包需要，以运行显式启用的真实账号契约验收。 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

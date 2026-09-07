@@ -1,0 +1,45 @@
+flowchart TB
+    A([砂狼 白子]):::main
+
+    subgraph "【阿比多斯高中】"
+    direction TB
+    B[小鸟游 星野]:::friend
+    C[十六夜 野宫]:::friend
+    
+    subgraph 白子的后辈
+    direction LR
+    I[黑见 芹香]:::friend
+    J[奥空 绫音]:::friend
+    end
+    end
+    
+    subgraph "【最终篇】"
+    direction LR
+    F{{砂狼 白子*恐怖}}:::evil
+    G[「色彩」]:::special
+    H[普雷那帕特斯]:::special
+    end
+    
+    E[阿慈谷 日富美]:::friend
+
+    %% 主要关系
+    A ---->|被星野收留| B
+    A ---->|同期入学| C
+    A ---->|遭到反转| F
+    A ---->|曾遇见| H
+    A ===> G
+    
+    %% 蒙面泳装团关系
+    B & C & I & J -.->|蒙面泳装团| E
+    A -.->|蒙面泳装团| E
+    
+    %% 最终篇关系
+    F --->|另一世界的师生| H
+    F ---> G
+    H --->|引导者| G
+
+    classDef main fill:#ff9ecd,stroke:#ff1493,stroke-width:4px,color:#000
+    classDef friend fill:#98fb98,stroke:#228b22,stroke-width:2px
+    classDef evil fill:#2f2f2f,stroke:#000000,color:#ff4444,stroke-width:3px
+    classDef special fill:#ffd700,stroke:#daa520,stroke-width:2px,color:#8b4513
+
