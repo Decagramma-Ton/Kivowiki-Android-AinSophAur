@@ -3,7 +3,7 @@
 本项目的 Git 提交身份固定为：
 
 ```text
-The One <326039646+Decagramma-Ton@users.noreply.github.com>
+Decagrammaton <326039646+Decagramma-Ton@users.noreply.github.com>
 ```
 
 远端仓库为 [Decagramma-Ton/Kivowiki-Android-AinSophAur](https://github.com/Decagramma-Ton/Kivowiki-Android-AinSophAur)。以下操作只设置当前仓库，不会改动电脑上其他仓库的 Git 身份。
@@ -36,7 +36,7 @@ git credential-manager github login --username Decagramma-Ton --browser
 如不使用 BAT，可在仓库根目录执行：
 
 ```powershell
-git config user.name "The One"
+git config user.name "Decagrammaton"
 git config user.email "326039646+Decagramma-Ton@users.noreply.github.com"
 git status --short
 git add -A

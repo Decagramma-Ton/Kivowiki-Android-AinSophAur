@@ -413,7 +413,7 @@ fun AboutScreen(version: String, website: (String) -> Unit, diagnostics: (() -> 
             TextButton(onClick = { website("https://kivo.wiki/contact") }) { Text("联系古书馆与反馈") }
             HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
             Text("社区开发团队", style = MaterialTheme.typography.titleLarge)
-            Text("The One", style = MaterialTheme.typography.headlineMedium)
+            Text("Decagrammaton", style = MaterialTheme.typography.headlineMedium)
             Text("主要作者与项目维护", style = MaterialTheme.typography.bodyMedium)
             listOf(
                     "Kether" to "架构设计",
